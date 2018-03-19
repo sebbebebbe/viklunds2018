@@ -12,7 +12,7 @@
 	$(function() {
 
 		var currentBackgroundImagePostfix = 0;
-		var maxIndex = 4;
+		var maxIndex = 7;
 		var changeBackground = function()
 		{
 					if(currentBackgroundImagePostfix  > maxIndex)
