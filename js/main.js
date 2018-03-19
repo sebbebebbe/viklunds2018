@@ -12,7 +12,7 @@
 	$(function() {
 
 		var currentBackgroundImagePostfix = 0;
-		var maxIndex = 7;
+		var maxIndex = 6;
 		var changeBackground = function()
 		{
 					if(currentBackgroundImagePostfix  > maxIndex)
@@ -23,8 +23,6 @@
 					var background = $( '#page-wrapper');
 					background.css('background-image','-webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/images/banner' + currentBackgroundImagePostfix + '.jpg');
 	
-					console.log(currentBackgroundImagePostfix);
-
 					currentBackgroundImagePostfix++;
 
 					window.setTimeout( function () {							
